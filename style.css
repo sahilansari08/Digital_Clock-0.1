@@ -1,0 +1,29 @@
+/* @import url('https://fonts.cdnfonts.com/css/led-digital-7'); */
+
+body{
+    background-color: #131313;
+    
+}
+.clock{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translateX(-50%) translateY(-50%);
+    display: flex;
+    font-family: 'Digital-7';
+}
+
+.time{
+    background-color:#090909 ;
+    color: #f5f5f5;
+    font-size: 100px;
+    width: 150px;
+    margin:10px;
+    text-align: center;
+}
+.heading{
+    color: #ffffff;
+    font-size: 19px;
+    text-transform: uppercase;
+    text-align: center;
+}
